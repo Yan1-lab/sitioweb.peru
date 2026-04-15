@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Machu Picchu | Reserva</title>
+
+    <link rel="stylesheet" href="/css/ramas.css">
+</head>
+<body>
+
+<header class="topbar">
+    <h1>Machu Picchu Sanctuary</h1>
+    <button class="btn-reserva-top">Reserva ahora</button>
+</header>
+
+<section class="galeria-container">
+
+    <div class="imagen-principal">
+        <img id="img-principal" src="https://www.peru.travel/Contenido/Noticia/Imagen/es/1135/1.0/Principal/Machu%20turis.jpg" alt="hotel">
+    </div>
+
+<!--AQUI PONGAN LAS IMAGENES QUE BUSCARON DE LOS HOTELES, AVENTURAS, TALLERES Y ASI PS-->
+    <div class="miniaturas">
+        <img src="https://www.boletomachupicchu.com/gutblt/wp-content/uploads/2024/09/templo-del-sol-machu-picchu-full.jpg" onclick="cambiarImagen(this)">
+        <img src="https://images.pexels.com/photos/2365456/pexels-photo-2365456.jpeg" onclick="cambiarImagen(this)">
+        <img src="https://content-historia.nationalgeographic.com.es/medio/2023/01/25/istock-625007720_8708be48_230125153322_800x533.jpg" onclick="cambiarImagen(this)">
+        <img src="https://images.pexels.com/photos/11743250/pexels-photo-11743250.jpeg" onclick="cambiarImagen(this)">
+    </div>
+
+</section>
+
+<section class="info-container">
+
+    <div class="info-left">
+
+        <h2>Descripción</h2>
+        <p>
+            Hotel premium ubicado cerca de Machu Picchu con vistas panorámicas a las montañas,
+            habitaciones modernas y experiencia turística completa.
+        </p>
+
+        <div class="tags">
+            <span>Desayuno incluido</span>
+            <span>Vista a la montaña</span>
+            <span>WiFi gratis</span>
+            <span>Tour guiado</span>
+        </div>
+
+        <h2>Ubicación</h2>
+        <div class="mapa">
+            <iframe
+                id="mapa"
+                src="https://www.google.com/maps?q=Machu+Picchu&output=embed"
+                width="100%"
+                height="300"
+                style="border:0;"
+                loading="lazy">
+            </iframe>
+        </div>
+
+    </div>
+
+    <!--ACA PUEDEN MODIFICAR EL PRECIO, Y EL TIEMPO, SI ES POR NOCHE, DIA, RANGO DE SEMANAS, ETC. NO SE OLVIDEN SIEMPRE TENER REFERENCIAS SOBRE HOTELES POSIBLES Y REALES-->
+    <div class="info-right">
+
+        <div class="precio-box">
+            <h2>$150 / noche</h2>
+            <button class="btn-reservar">Reservar ahora</button>
+        </div>
+
+        <div class="rating">
+            ⭐ 9.2 - Excelente ubicación
+        </div>
+
+    </div>
+
+</section>
+
+<script src="/script.js"></script>
+
+</body>
+</html>
