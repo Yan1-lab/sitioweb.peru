@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Best Point | Reservas</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body> 
+    <header>
+        <h1>THE BEST POINT</h1>
+        <div class="search-container">
+            <input type="text" id="busqueda" placeholder="Busca tu próxima aventura...">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Mis Reservas (<span id="cart-count">0</span>)</a></li>
+                <li><a href="#" class="btn-login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="filtros">
+            <select id="filtro-categoria">
+                <option value="todos">Todas las categorías</option>
+                <option value="hotel">Hoteles</option>
+                <option value="tour">Tours y Aventuras</option>
+            </select>
+            <select id="filtro-precio">
+                <option value="todos">Cualquier precio</option>
+                <option value="basico">Básico</option>
+                <option value="estandar">Estandar</option>
+                <option value="premium">Premium</option>
+            </select>
+        </section>
+
+        <section class="contenedor-tarjetas" id="grid-reservas">
+            </section>
+
+        <section class="contacto-form">
+            <h2>¿No encuentras lo que buscas?</h2>
+            <form id="form-contacto">
+                <input type="text" placeholder="Tu Nombre" required>
+                <textarea placeholder="Cuéntanos qué buscas..." rows="3"></textarea>
+                <button type="submit" class="btn-reservar">Enviar consulta</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 The Best Point. Sistema de Reservas Profesional.</p>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>
