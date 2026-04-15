@@ -119,16 +119,16 @@ document.getElementById("grid-reservas").addEventListener("click", (e) => {
         let destinoURL = "";
         switch (id) {
             case "1":
-                destinoURL = "/html/MachuPicchu.html";
+                destinoURL = "/MachuPicchu.html";
                 break;
             case "2":
-                destinoURL = "/html/LagoTiticaca.html";
+                destinoURL = "/LagoTiticaca.html";
                 break;
             case "3":
-                destinoURL = "/html/Nazca.html";
+                destinoURL = "/Nazca.html";
                 break;
             case "4":
-                destinoURL = "/html/Iquitos.html";
+                destinoURL = "/Iquitos.html";
                 break;
         }
         localStorage.setItem("destino", titulo);
